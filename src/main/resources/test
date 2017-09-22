@@ -1,0 +1,2 @@
+./bin/kafka-topics.sh --create --zookeeper 192.168.80.123:2181 --replication-factor 1 --partitions 3 --topic ecartest
+./bin/kafka-server-start.sh -daemon ./config/server.properties
